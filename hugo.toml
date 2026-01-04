@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "https://fortune9.github.io/dont-shut-joy-out/"
 # Title of your website (required).
 title = "Don't Shut Joy Out"
 # Your theme name
