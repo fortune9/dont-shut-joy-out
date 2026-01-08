@@ -43,3 +43,33 @@ If you would like to start with this theme, you need to do the following to make
 - I modified the *Setup Project* in the github action workflow file by adding theme-setup
   to account for any theme changes, such as removing multilingual, etc. This may be optional
   for you.
+
+### To add a new post
+
+```
+hugo new posts/your-post-title.md
+```
+
+Then edit the newly created markdown file in `content/posts/your-post-title.md`.
+
+### To run the website locally
+
+```
+hugo server -D
+```
+
+Then open your browser at `http://localhost:1313/`. Here the option `-D` is to include
+the draft posts.
+
+### To build the website
+
+```
+hugo
+```
+
+The generated website will be in the `public` folder.
+
+Since the github action workflow will build the website and deploy to github pages,
+you do not need to build the website locally unless you want to check the generated
+files.
+
